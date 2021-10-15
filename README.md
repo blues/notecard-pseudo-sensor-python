@@ -20,9 +20,9 @@ pip3 install notecard-pseudo-sensor
 ## Usage
 
 ``` python
-import notecard-pseudo-sensor
+import notecard_pseudo_sensor
 
-sensor = notecard-pseudo-sensor.NotecardPseudoSensor()
+sensor = notecard_pseudo_sensor.NotecardPseudoSensor()
 print(sensor.temp())
 print(sensor.humidity())
 ```
