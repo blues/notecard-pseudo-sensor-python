@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="notecard-pseudo-sensor",
-    version="1.0.0",
+    version="1.1.0",
     author="Blues Inc.",
     author_email="support@blues.com",
     description="An API interface to the internal sensors of the Blues Wireless Notecard",
