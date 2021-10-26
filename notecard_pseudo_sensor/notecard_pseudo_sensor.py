@@ -1,11 +1,8 @@
-import notecard
-from periphery import I2C
 import random
 
 class NotecardPseudoSensor:
-  def __init__(self):
-    port = I2C("/dev/i2c-1")
-    self.card = notecard.OpenI2C(port, 0, 0)
+  def __init__(self, card):
+    self.card = card
 
   # Read the temperature from the Notecard’s temperature
   # sensor. The Notecard captures a new temperature sample every
