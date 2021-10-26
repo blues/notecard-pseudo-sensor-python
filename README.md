@@ -22,8 +22,10 @@ pip3 install notecard-pseudo-sensor
 ``` python
 import notecard
 import notecard_pseudo_sensor
-from periphery import I2C
 
+# How you connect to the Notecard varies based on your platform.
+# See the note below.
+from periphery import I2C
 port = I2C("/dev/i2c-1")
 card = notecard.OpenI2C(port, 0, 0)
 
